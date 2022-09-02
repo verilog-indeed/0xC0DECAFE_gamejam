@@ -8,6 +8,8 @@ public class PlayerProtoMovement : MonoBehaviour
     [SerializeField] float gravityModifier;
     private BoxCollider2D collision; 
     private Rigidbody2D body;
+    private Animator animControl;
+    private float defaultScale;
     float horizontalInput;
     float VerticaInput;
     int keyCount;
@@ -21,7 +23,9 @@ public class PlayerProtoMovement : MonoBehaviour
     {
         collision = GetComponent<BoxCollider2D>();
         body = GetComponent<Rigidbody2D>();
+        animControl = GetComponent<Animator>();
         keyCount = 0;
+        defaultScale = transform.localScale.x;
     }
     private void Start()
     {
@@ -31,9 +35,10 @@ public class PlayerProtoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         MovementInput();
         Flip();
-
+        animControl.SetFloat("hSpeed", Mathf.Abs(body.velocity.x));
     }
 
     private void GrabKey(GameObject grabbedKey)
@@ -97,21 +102,23 @@ public class PlayerProtoMovement : MonoBehaviour
     {
         if (horizontalInput > 0.01f)
         {
-            transform.localScale = Vector2.one;
+            transform.localScale = Vector2.one * defaultScale;
         }
         else if (horizontalInput < -0.01f)
         {
-            transform.localScale = new Vector2(-1, 1);
+            transform.localScale = (new Vector2(-1, 1)) * defaultScale;
         }
     }
 
     void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, JumpForce);
+        animControl.SetTrigger("jumpTrigger");
     }
     bool Grounded()
     {
-        return Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y - 0.5f), 0.3f, GroundLayer);
+        RaycastHit2D ray = Physics2D.BoxCast(collision.bounds.center, collision.bounds.size, 0.0f, Vector2.down, 0.1f, GroundLayer);
+        return ray;
     }
 
 

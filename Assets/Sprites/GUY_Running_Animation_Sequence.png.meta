@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 8c0fed4f2ca07c240b1caa89616d1884
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8667463611403245980
+    second: GUY_Running_Animation_Sequence_0
+  - first:
+      213: -5889829618737874710
+    second: GUY_Running_Animation_Sequence_1
+  - first:
+      213: -1045483449053532329
+    second: GUY_Running_Animation_Sequence_2
+  - first:
+      213: -7871762315267794378
+    second: GUY_Running_Animation_Sequence_3
+  - first:
+      213: -940315631011180498
+    second: GUY_Running_Animation_Sequence_4
+  - first:
+      213: 4674650192400164108
+    second: GUY_Running_Animation_Sequence_5
+  - first:
+      213: -6340661331641517492
+    second: GUY_Running_Animation_Sequence_6
+  - first:
+      213: -1934758817471913532
+    second: GUY_Running_Animation_Sequence_7
+  - first:
+      213: 1743576012529202439
+    second: GUY_Running_Animation_Sequence_8
+  - first:
+      213: -3137404802956601098
+    second: GUY_Running_Animation_Sequence_9
+  - first:
+      213: -3662844514598327804
+    second: GUY_Running_Animation_Sequence_10
+  - first:
+      213: 6940320679030858632
+    second: GUY_Running_Animation_Sequence_11
+  - first:
+      213: -1435434399009374116
+    second: GUY_Running_Animation_Sequence_12
+  - first:
+      213: -5108117977624768693
+    second: GUY_Running_Animation_Sequence_13
+  - first:
+      213: -6780962863254235669
+    second: GUY_Running_Animation_Sequence_14
+  - first:
+      213: -2023916216889280818
+    second: GUY_Running_Animation_Sequence_15
+  - first:
+      213: 8668598284860961155
+    second: GUY_Running_Animation_Sequence_16
+  - first:
+      213: 87825843324127943
+    second: GUY_Running_Animation_Sequence_17
+  - first:
+      213: 7443395884676063925
+    second: GUY_Running_Animation_Sequence_18
+  - first:
+      213: 1667044433387342046
+    second: GUY_Running_Animation_Sequence_19
+  - first:
+      213: 4954856576928650100
+    second: GUY_Running_Animation_Sequence_20
+  - first:
+      213: 906867846814956460
+    second: GUY_Running_Animation_Sequence_21
+  - first:
+      213: -792670792548342673
+    second: GUY_Running_Animation_Sequence_22
+  - first:
+      213: 8542490866942120431
+    second: GUY_Running_Animation_Sequence_23
+  - first:
+      213: -8613680301191434389
+    second: GUY_Running_Animation_Sequence_24
+  - first:
+      213: -4338029932728184844
+    second: GUY_Running_Animation_Sequence_25
+  - first:
+      213: -4169207028019272717
+    second: GUY_Running_Animation_Sequence_26
+  - first:
+      213: 2001407027654217644
+    second: GUY_Running_Animation_Sequence_27
+  - first:
+      213: 2100097450655724304
+    second: GUY_Running_Animation_Sequence_28
+  - first:
+      213: 2680008515987965205
+    second: GUY_Running_Animation_Sequence_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99905d7b34094870800000000000000
+      internalID: 8667463611403245980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_1
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fd8bda2f134ea0800000000000000
+      internalID: -5889829618737874710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_2
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2d90a752bd71f0800000000000000
+      internalID: -1045483449053532329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_3
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a182271e1e1c290800000000000000
+      internalID: -7871762315267794378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_4
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20d4d46ae353f2f0800000000000000
+      internalID: -940315631011180498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_5
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 4400
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0529372591bfd040800000000000000
+      internalID: 4674650192400164108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ab376fc127108a0800000000000000
+      internalID: -6340661331641517492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c128863b1b5625e0800000000000000
+      internalID: -1934758817471913532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_8
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705f1b1452d623810800000000000000
+      internalID: 1743576012529202439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_9
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8da2354f2b574d0800000000000000
+      internalID: -3137404802956601098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_10
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae0ef0256fa2dc0800000000000000
+      internalID: -3662844514598327804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_11
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 3300
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883aeecd2e8f05060800000000000000
+      internalID: 6940320679030858632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c508ba4f400541ce0800000000000000
+      internalID: -1435434399009374116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_13
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f83e863c15c19b0800000000000000
+      internalID: -5108117977624768693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_14
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be59d94f33e25e1a0800000000000000
+      internalID: -6780962863254235669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_15
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec679258cea99e3e0800000000000000
+      internalID: -2023916216889280818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_16
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b2bd363c0d4870800000000000000
+      internalID: 8668598284860961155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_17
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2200
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0f61a325083100800000000000000
+      internalID: 87825843324127943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a8bcce114c4760800000000000000
+      internalID: 7443395884676063925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_19
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed848dc6418822710800000000000000
+      internalID: 1667044433387342046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_20
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47317d40ecf23c440800000000000000
+      internalID: 4954856576928650100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_21
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf0ab7087d59c00800000000000000
+      internalID: 906867846814956460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_22
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64245a2d1edff4f0800000000000000
+      internalID: -792670792548342673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_23
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 1100
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe19a15fe260d8670800000000000000
+      internalID: 8542490866942120431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f64be376f067880800000000000000
+      internalID: -8613680301191434389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_25
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff89b292c83cc3c0800000000000000
+      internalID: -4338029932728184844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_26
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f369d32c400426c0800000000000000
+      internalID: -4169207028019272717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_27
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafcc46761d66cb10800000000000000
+      internalID: 2001407027654217644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_28
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013b90c218b052d10800000000000000
+      internalID: 2100097450655724304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUY_Running_Animation_Sequence_29
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 0
+        width: 1100
+        height: 1100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5150c76cb8d413520800000000000000
+      internalID: 2680008515987965205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
