@@ -10,6 +10,7 @@ public class PlayerProtoMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator animControl;
     private float defaultScale;
+    private bool isFalling;
     float horizontalInput;
     float VerticaInput;
     int keyCount;
@@ -38,7 +39,6 @@ public class PlayerProtoMovement : MonoBehaviour
         
         MovementInput();
         Flip();
-        animControl.SetFloat("hSpeed", Mathf.Abs(body.velocity.x));
     }
 
     private void GrabKey(GameObject grabbedKey)
@@ -84,8 +84,13 @@ public class PlayerProtoMovement : MonoBehaviour
             {
                 Jump();
             }
+
+            animControl.SetFloat("hSpeed", Mathf.Abs(body.velocity.x));
+            isFalling = body.velocity.y < -0.1f;
+            animControl.SetBool("isFalling", isFalling);
+
         }
-        
+
     }
     void Move()
     {
