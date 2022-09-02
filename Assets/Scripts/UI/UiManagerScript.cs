@@ -30,11 +30,12 @@ public class UiManagerScript : MonoBehaviour
     }
     public void Continue()
     {
-
+        Time.timeScale = 1;
     }
     public void NewGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
     public void Options()
     {
