@@ -6,6 +6,7 @@ public class PlayerProtoMovement : MonoBehaviour
 {
     [SerializeField] private float HorizontalSpeedScale;
     [SerializeField] float JumpForce;
+    [SerializeField] float gravityModifier;
     private BoxCollider2D collision; 
     private Rigidbody2D body;
     float horizontalInput;
@@ -33,6 +34,11 @@ public class PlayerProtoMovement : MonoBehaviour
         Flip();
         Die();
     }
+
+    public bool PlayerIsSpirit() {
+        return IsSpirit;
+    }
+
     private void FixedUpdate()
     {
         Move();
@@ -50,10 +56,10 @@ public class PlayerProtoMovement : MonoBehaviour
         else
         {
             horizontalInput = Input.GetAxis("Horizontal");
-            body.gravityScale = 1;
+            body.gravityScale = gravityModifier;
 
             this.gameObject.GetComponent<SpriteRenderer>().color = AliveC;
-            if (Input.GetKeyDown(KeyCode.Space)&& Grounded())
+            if (Input.GetKeyDown(KeyCode.Space) && Grounded())
             {
                 Jump();
             }
