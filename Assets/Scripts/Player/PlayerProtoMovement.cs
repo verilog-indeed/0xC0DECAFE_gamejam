@@ -56,7 +56,7 @@ public class PlayerProtoMovement : MonoBehaviour
     public bool PlayerSpendKey()
     {
         bool playerHasKey = keyCount > 0;
-        keyCount = Math.Min(0, keyCount - 1);
+        keyCount = Math.Max(0, keyCount - 1);
         return playerHasKey;
     }
 

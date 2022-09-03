@@ -20,12 +20,13 @@ public class KeyHole : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!keyHoleUnlocked && collision.gameObject.tag == "Player")
+        GameObject go = collision.gameObject;
+        if (!keyHoleUnlocked && go.tag == "Player")
         {
-            if (collision.gameObject.GetComponent<PlayerProtoMovement>().PlayerSpendKey())
+            if (go.GetComponent<PlayerProtoMovement>().PlayerSpendKey())
             {
                 keyHoleUnlocked = true;
-                GetComponent<SpriteRenderer>().color = Color.green;
+                this.GetComponent<SpriteRenderer>().color = Color.green;
             }
         }   
     }
