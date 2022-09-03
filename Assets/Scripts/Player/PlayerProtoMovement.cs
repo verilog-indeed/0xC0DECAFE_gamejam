@@ -68,8 +68,8 @@ public class PlayerProtoMovement : MonoBehaviour
     {
         if (IsSpirit)
         {
-            horizontalInput = Input.GetAxisRaw("Horizontal");
-            VerticaInput = Input.GetAxisRaw("Vertical");
+            horizontalInput = Input.GetAxis("Horizontal");
+            VerticaInput = Input.GetAxis("Vertical");
 
             body.gravityScale = 0;
             this.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
@@ -86,7 +86,7 @@ public class PlayerProtoMovement : MonoBehaviour
             }
 
             animControl.SetFloat("hSpeed", Mathf.Abs(body.velocity.x));
-            isFalling = body.velocity.y < -0.1f;
+            isFalling = (body.velocity.y < -0.2f) && !Grounded();
             animControl.SetBool("isFalling", isFalling);
 
         }

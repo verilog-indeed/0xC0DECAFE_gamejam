@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DeadOrAliveBlocker : MonoBehaviour
 {
-    [SerializeField] private bool blockIfDead;
+    [SerializeField] private bool blockIfAlive;
     private Collider2D gateCollider;
     private GameObject player;
     private PlayerProtoMovement moveScript;
@@ -24,7 +24,7 @@ public class DeadOrAliveBlocker : MonoBehaviour
         {
             //block player if they are dead and the object is set to block the dead
             // or block player if they are not dead and object is set to not block the dead
-            if (blockIfDead == moveScript.PlayerIsSpirit())
+            if (blockIfAlive == moveScript.PlayerIsSpirit())
             {
                 Physics2D.IgnoreCollision(playerCollider, gateCollider);
             }
