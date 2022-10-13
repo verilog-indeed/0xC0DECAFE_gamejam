@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerProtoMovement : MonoBehaviour
 {
@@ -15,7 +17,12 @@ public class PlayerProtoMovement : MonoBehaviour
     float VerticaInput;
     int keyCount;
 
-    bool IsSpirit;
+    #region
+    [SerializeField] TextMeshProUGUI KeyCountText;
+    [SerializeField] Image KeySprite;
+    #endregion
+
+    public bool IsSpirit;
     Color AliveC;
 
     [SerializeField] LayerMask GroundLayer;
@@ -36,9 +43,23 @@ public class PlayerProtoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        KeyUI();
         MovementInput();
         Flip();
+    }
+
+    void KeyUI()
+    {
+        if (keyCount < 1)
+        {
+            KeySprite.gameObject.SetActive(false);
+        }
+        if (keyCount > 0)
+        {
+            KeySprite.gameObject.SetActive(true);
+
+            KeyCountText.text = keyCount.ToString();
+        }
     }
 
     private void GrabKey(GameObject grabbedKey)
@@ -72,7 +93,7 @@ public class PlayerProtoMovement : MonoBehaviour
             VerticaInput = Input.GetAxis("Vertical");
 
             body.gravityScale = 0;
-            this.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            animControl.SetBool("isGhost", true);
         }
         else
         {
@@ -90,7 +111,7 @@ public class PlayerProtoMovement : MonoBehaviour
             animControl.SetBool("isFalling", isFalling);
 
         }
-
+        animControl.SetBool("isGhost", IsSpirit);
     }
     void Move()
     {
